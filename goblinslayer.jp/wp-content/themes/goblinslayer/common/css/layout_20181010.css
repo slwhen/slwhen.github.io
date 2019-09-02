@@ -1,0 +1,1145 @@
+@charset "UTF-8";
+
+html {
+	font-size: 62.5%;
+	height: 100%;
+	background: #000
+}
+body {
+	font-size: 1.0rem;
+	font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	height: auto;
+	background: url(../../images/bg.jpg) center top no-repeat #000;
+}
+.fade:hover img{  
+	opacity:0.9;
+	filter: alpha(opacity=90);        
+	-ms-filter: "alpha(opacity=90)";  
+	-moz-opacity:0.9;         
+	-khtml-opacity: 0.9;
+	zoom:1;
+}
+a {
+	color: #8c0000;
+}
+a:hover {
+	color: #8c0000;
+}
+.sp {
+  display: none;
+}
+.pc {
+  display: block;
+}
+.menu-trigger {
+  display: none;
+}
+
+.wrap {
+	width: 1080px;
+	height: 1140px;
+	background: url(../../images/contbg.png) 0 0 no-repeat;
+	margin: 0 auto;
+	position: relative;
+}
+.side {
+	width: 445px;
+	height: 1140px;
+	background: url(../../images/menu-bg.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	left: -29px;
+	text-align: center;
+	padding-top: 50px;
+	z-index: 1;
+}
+.side.crown {
+  padding-top: 31px;
+}
+  .side.crown h1 {
+    margin-bottom: 0;
+  }
+	.side .menu {
+		padding: 5px 5px 10px 0;
+	}	
+		.side .menu p {
+			height: 42px;
+			margin: 0;
+		}
+	.side .news-box {
+		background: url(../../images/bg-side-news.png) 0 0 no-repeat;
+		width: 283px;
+		height: 295px;
+		padding: 10px 12px 0 0;
+		margin: 0 auto;
+	}
+		.side .news-box ul {
+			margin: 0 0 0 -20px;
+			padding-right: 10px;
+			list-style: none;
+			text-align: left;
+			height: 205px;
+			overflow: auto;
+			color: #43211a;
+			font-size: 1.6rem;
+			font-weight: bold;
+		}
+		  .side .news-box h4 {
+  		  display: none;
+		  }
+		  .side .news-box ul li {
+  		  display: flex;
+  		  flex-direction: column-reverse;
+  		  margin-bottom: 10px;
+		  }
+		.side .news-box .date {
+			font-size: 1.6rem;
+			font-weight: bold;
+			margin-bottom: 0px;
+		}
+		.side .news-box .txt {
+			font-size: 1.6rem;
+			font-weight: bold;
+		}
+	.side .twitter-box {
+		background: url(../../images/bg-side-twitter.png) 0 0 no-repeat;
+		width: 283px;
+		height: 215px;
+		padding: 10px 12px 0 0;
+		margin: 0 auto;
+	}
+		.side .twitter-box h2 {
+			margin: 0;
+		}
+		.side .twitter-box .timeline {
+			height: 130px;
+			overflow: hidden;
+		}
+
+.top-visual {
+	width: 891px;
+	height: 1061px;
+	background: url(../../images/main-visual.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	right: -128px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-right: 163px;
+	padding-bottom: 20px;
+}
+.top-visual .badge {
+  position: absolute;
+  top: 25px;
+  left: 45px;
+}
+  .top-visual .badge img {
+    width: 253px;
+    height: 253px;
+  }
+.top-visual-02 {
+	width: 842px;
+	height: 1036px;
+	background: url(../../images/main-visual02.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	right: -63px;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding-right: 163px;
+	padding-bottom: 20px;
+}
+
+.low-content {
+	width: 743px;
+	height: 1091px;
+	background: url(../../images/low-bg.png) 0 0 no-repeat;
+	position: absolute;
+	top: 0;
+	right: 16px;
+	padding: 64px 0 0 95px;
+	color: #060000;
+	font-family: "Sawarabi Mincho", serif;
+}
+.low-content.no-char {
+  background: url(../../images/low-bg-no-char.png) 0 0 no-repeat;
+}
+.low-content.no-char-yellow {
+  background: url(../../images/low-bg-no-char-yellow.png) 0 0 no-repeat;
+}
+.low-content.shadow {
+  background: url(../../images/low-bg-shadow.png) 0 0 no-repeat;
+}
+.low-content.no-char-shadow {
+  background: url(../../images/low-bg-no-char-shadow.png) 0 0 no-repeat;
+}
+.low-content.char-goblin {
+  background: url(../../images/low-bg-char-goblin.png) 0 0 no-repeat;
+}
+.low-content.char-shinkan {
+  background: url(../../images/low-bg-char-shinkan.png) 0 0 no-repeat;
+}
+.low-content.char-elf {
+  background: url(../../images/low-bg-char-elf.png) 0 0 no-repeat;
+}
+.low-content.char-dwarf {
+  background: url(../../images/low-bg-char-dwarf.png) 0 0 no-repeat;
+}
+.low-content.char-lizard {
+  background: url(../../images/low-bg-char-lizard.png) 0 0 no-repeat;
+}
+.low-content.char-uketsuke {
+  background: url(../../images/low-bg-char-uketsuke.png) 0 0 no-repeat;
+}
+.low-content.char-ushi {
+  background: url(../../images/low-bg-char-ushi.png) 0 0 no-repeat;
+}
+.low-content.char-sword {
+  background: url(../../images/low-bg-char-sword.png) 0 0 no-repeat;
+}
+	.low-content h2 {
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.low-content h2 img {
+		margin-right: 12px;
+	}
+	.low-content h2 img.txt-ttl {
+		height: 26px;
+		width: auto;
+	}
+	.low-content.goods h2 img.txt-ttl {
+		height: 35px;
+		width: auto;
+	}
+	.low-content .innerbox {
+  	height: 810px;
+  	width: 600px;
+  	overflow: auto;
+	}
+	.low-content h3 {
+		margin-bottom: 15px;
+	}
+	.low-content h3 img {
+		height: 22px;
+		width: auto;
+	}
+	.low-content.onair h3 img {
+  	height: 41px;
+  	width: auto;
+	}
+	.low-content.story h3 img {
+  	height: 104px;
+  	width: 414px;
+	}
+	.low-content .staff,
+	.low-content .cast {
+		margin-bottom: 20px;
+		font-size: 1.4rem;
+	}
+		.low-content .staff p,
+		.low-content .cast p {
+			font-weight: bold;
+			margin-bottom: 8px;
+		}
+	.low-content .news {
+		width: 360px;
+		margin-bottom: 15px;
+		text-shadow: 0px 1px #ddd0a0;
+	}
+		.low-content .news dt {
+			font-size: 1.8rem;
+			font-weight: bold;
+			padding-bottom: 3px;
+			border-bottom: 2px solid #000;
+			margin-bottom: 10px;
+		}
+		.low-content .news dd {
+			font-size: 1.4rem;
+			font-weight: bold;
+		}
+  .low-content .newsbox {
+		width: 580px;
+		height: 800px;
+    overflow: auto;
+		text-shadow: 0px 1px #ddd0a0;
+		font-size: 1.4rem;
+		font-weight: bold;
+	}
+	  .low-content .newsbox .date {
+  		font-size: 1.4rem;
+  		margin-bottom: 5px;
+  	}
+  	.low-content .newsbox .ttl {
+  		font-size: 1.8rem;
+  		padding-bottom: 3px;
+			border-bottom: 2px solid #000;
+			margin-bottom: 10px;
+  	}
+  	.low-content .newsbox .small {
+  		font-size: 1.2rem;
+  	}
+  	.low-content .newsbox .back {
+  		text-align: right;
+  	}
+	.low-content .movie {
+		width: 580px;
+		margin-bottom: 15px;
+		text-shadow: 0px 1px #ddd0a0;
+	}
+		.low-content .movie dt {
+			font-size: 2.1rem;
+			font-weight: bold;
+			padding-bottom: 3px;
+			border-bottom: 2px solid #000;
+			margin-bottom: 10px;
+		}
+		.low-content .movie dd {
+			position: relative;
+			padding-bottom: 56.25%;
+			height: 0;
+			overflow: hidden;
+			max-width: 100%;
+		}
+			.low-content .movie dd iframe {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+			}
+  .low-content .low-wrap {
+    width: 580px;
+    height: 820px;
+    overflow-y: auto;
+  }
+  .low-content .onairtxt {
+    margin-bottom: 30px;
+    font-size: 1.5rem;
+  }
+    .low-content .onairtxt p {
+      margin-bottom: 0px;
+    }
+    .low-content .onairtxt ul {
+      list-style: none;
+      margin: 0 0 15px 0;
+      padding: 0;
+    }
+      .low-content .onairtxt ul li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      .low-content .onairtxt ul li span {
+        text-decoration: underline;
+      }
+        .low-content .onairtxt ul li ul {
+          margin-left: 20px;
+        }
+  .low-content .haishin {
+    font-size: 1.5rem;
+  }
+  .low-content .haishin {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+  }
+    .low-content .haishin a:link,
+    .low-content .haishin a:visited {
+      color: #000;
+      text-decoration: underline;
+    }
+    .low-content .haishin a:hover,
+    .low-content .haishin a:active {
+      text-decoration: none;
+    }
+  .low-content.story p {
+    font-size: 1.4rem;
+    line-height: 2.0;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .low-content.story ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .low-content.story > ul {
+    height: 301px;
+    overflow: auto;
+    width: 590px;
+  }
+    .low-content.story ul li img {
+      max-width: 100%;
+      height: auto;
+    }
+  .low-content.story .storyBox {
+    width: 580px;
+    padding-bottom: 25px;
+    background: url(../../images/story-line.png) left bottom repeat-x;
+    background-size: 568px 10px;
+  }
+    .low-content.story .storyBox .pic {
+      margin-bottom: 0;
+    }
+    .low-content.story .storyBox .pic img {
+      width: 100%;
+      height: auto;
+    }
+    .low-content.story .storyBox .bxslider img {
+      width: 100%;
+      height: auto;
+    }
+    .low-content.story .storyBox #bx-pager {
+      display: flex;
+    }
+      .low-content.story .storyBox #bx-pager li {
+        width: 20%;
+        background: #000;
+      }
+      .low-content.story .storyBox #bx-pager li img {
+        width: 100%;
+        height: auto;
+        opacity: 0.6;
+      }
+      .low-content.story .storyBox #bx-pager li .active img {
+        opacity: 1;
+      }
+      .low-content.story .storyBox .bx-wrapper {
+        margin-bottom: 10px;
+      }
+      .low-content.story .storyBox .bx-wrapper .bx-viewport {
+        border: none !important;
+        left: 0 !important;
+        box-shadow: none !important;
+      }
+  .low-content.story .storyBox .title-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+    .low-content.story .storyBox .title-summary .title {
+      width: 48%;
+      margin-bottom: 0;
+    }
+      .low-content.story .storyBox .title-summary .title img {
+        width: 100%;
+        height: auto;
+      }
+    .low-content.story .storyBox .title-summary .txt {
+      width: 48%;
+      font-size: 1.3rem;
+      font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+      text-shadow: 0px 0px 5px #daac33;
+    }
+  .low-content.story .back {
+    text-align: right;
+    width: 580px;
+  }
+    .low-content.story .back img {
+      height: 18px;
+      width: auto;
+    }
+  
+  .low-content ul.character {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0; 
+  }
+    .low-content .character li {
+      list-style: none;
+    }
+    .low-content .character li.goblin {
+      margin-left: -20px;
+    }
+    .low-content .character li.shinkan {
+      margin-left: -50px;
+      margin-top: 25px;
+      z-index: 1;
+    }
+    .low-content .character li.elf {
+      margin-left: -40px;
+    }
+    .low-content .character li.dwarf {
+      margin-left: -40px;
+      margin-top: 25px;
+      z-index: 1;
+    }
+    .low-content .character li.lizard {
+      margin-left: -25px;
+      margin-top: -25px;
+    }
+    .low-content .character li.uketsuke {
+      margin-left: -40px;
+      z-index: 2;
+    }
+    .low-content .character li.ushi {
+      margin-left: -27px;
+      margin-top: -20px;
+      z-index: 1;
+    }
+    .low-content .character li.sword {
+      margin-left: -35px;
+      margin-top: -20px;
+    }
+  .low-content .char-detail {
+    position: relative;
+  }
+    .low-content .char-detail h3 img {
+  		width: auto;
+  		height: auto;
+  		margin-left: -10px;
+  	}
+    .low-content.char-goblin .char-detail .charimg {
+      position: absolute;
+      top: -30px;
+      right: 50px;
+    }
+    .low-content.char-shinkan .char-detail .charimg {
+      position: absolute;
+      top: -25px;
+      right: -170px;
+    }
+    .low-content.char-elf .char-detail .charimg {
+      position: absolute;
+      top: -260px;
+      right: -260px;
+    }
+    .low-content.char-dwarf .char-detail .charimg {
+      position: absolute;
+      top: 120px;
+      right: 10px;
+    }
+    .low-content.char-lizard .char-detail .charimg {
+      position: absolute;
+      top: -40px;
+      right: 10px;
+    }
+    .low-content.char-uketsuke .char-detail .charimg {
+      position: absolute;
+      top: -30px;
+      right: 100px;
+    }
+    .low-content.char-ushi .char-detail .charimg {
+      position: absolute;
+      top: -30px;
+      right: 50px;
+    }
+    .low-content.char-sword .char-detail .charimg {
+      position: absolute;
+      top: -10px;
+      right: -50px;
+    }
+    .low-content .char-detail .prev {
+      position: absolute;
+      left: -10px;
+      top: 290px;
+    }
+      .low-content .char-detail .prev img {
+        width: 97px;
+        height: 140px;
+      }
+    .low-content .char-detail .next {
+      position: absolute;
+      right: 50px;
+      top: 290px;
+    }
+      .low-content .char-detail .next img {
+        width: 97px;
+        height: 140px;
+      }
+  
+  .low-content.special .specialBox {
+    width: 580px;
+    height: 800px;
+    overflow: auto;
+  }
+    .low-content.special .specialBox h3 img {
+      width: 100%;
+      height: auto;
+    }
+    .low-content.special .specialBox p.lead {
+      font-size: 1.6rem;
+      font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #e2ce92,
+             -1px 1px 0 #e2ce92,
+             1px -1px 0 #e2ce92,
+             -1px -1px 0 #e2ce92;
+    }
+    .low-content.special .specialBox h4 {
+      font-size: 2.4rem;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #e2ce92,
+             -1px 1px 0 #e2ce92,
+             1px -1px 0 #e2ce92,
+             -1px -1px 0 #e2ce92;
+      border-bottom: 2px solid #000;
+      letter-spacing: -1px;
+      margin-bottom: 15px;
+    }
+    .low-content.special .specialBox dl {
+      display: flex;
+      font-size: 1.4rem;
+      margin-bottom: 5px;
+      text-shadow: 1px 1px 0 #e2ce92,
+             -1px 1px 0 #e2ce92,
+             1px -1px 0 #e2ce92,
+             -1px -1px 0 #e2ce92;
+    }
+      .low-content.special .specialBox dl dt {
+        width: 85px;
+        margin-bottom: 0;
+      }
+      .low-content.special .specialBox dl dd {
+        flex: 1;
+        margin-bottom: 0;
+        font-weight: bold;
+      }
+    .low-content.special .specialBox p.evtxt {
+      font-size: 1.4rem;
+      margin-top: 15px;
+      text-shadow: 1px 1px 0 #e2ce92,
+             -1px 1px 0 #e2ce92,
+             1px -1px 0 #e2ce92,
+             -1px -1px 0 #e2ce92;
+    }
+    .low-content.special .specialBox p.etc {
+      font-size: 1.2rem;
+      font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+      font-weight: bold;
+      text-shadow: 1px 1px 0 #e2ce92,
+             -1px 1px 0 #e2ce92,
+             1px -1px 0 #e2ce92,
+             -1px -1px 0 #e2ce92;
+      margin-bottom: 15px;
+    }
+    .low-content.special .specialBox .bnr {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+      .low-content.special .specialBox .bnr li {
+        width: 100%;
+        margin-bottom: 5px;
+      }
+      .low-content.special .specialBox .bnr li img {
+        width: 100%;
+        height: auto;
+      }
+    .low-content.special .specialBox .icon {
+      list-style: none;
+      margin: 0;
+      width: 100%;
+      height: 416px;
+      box-sizing: border-box;
+      padding: 90px 15px 50px 15px;
+      background: url(../../images/special-icon-bg.png) 0 0 no-repeat;
+      background-size: 580px 416px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+      .low-content.special .specialBox .icon li {
+        width: 130px;
+        height: 130px;
+        background: #fff;
+      }
+      .low-content.special .specialBox .icon li img {
+        width: 100%;
+        height: auto;
+      }
+footer {
+	padding: 1061px 50px 0 410px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+	footer p {
+		margin: 0;
+	}
+	footer .copy {
+		color: #fff;
+		font-size: 1.1rem;
+	}
+	
+.iframe-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  margin-bottom: 20px;
+}
+.iframe-wrapper iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.low-content .goodsBox {
+  width: 600px;
+  height: 820px;
+  padding-right: 20px;
+  overflow-y: auto;
+}
+.low-content .goodsBox.shop {
+  height: 700px;
+}
+.low-content .goodsBox .goodsnav {
+  display: flex;
+  justify-content: center;
+  background: url(../../images/navbg.png) center top;
+  height: 138px;
+  margin-bottom: 15px;
+}
+  .low-content .goodsBox .goodsnav p {
+    margin: 0 7px;
+  }
+.low-content .goodsBox .goodsBlock {
+  display: flex;
+  background: url(../../images/goodsline.png) left bottom no-repeat;
+  padding-bottom: 20px;
+  margin-bottom: 10px;
+}
+.low-content .goodsBox .goodsBlock.nobg,
+.low-content .goodsBox .goodsBlock.block02 {
+  background: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+  .low-content .goodsBox .change {
+    font-size: 12px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    text-shadow: 
+        #e2ce92 1px 1px 0, #e2ce92 -1px -1px 0,/*右下、左上*/
+        #e2ce92 -1px 1px 0, #e2ce92 1px -1px 0,/*右上、左下*/
+        #e2ce92 0px 1px 0, #e2ce92  0 -1px 0,/*右、左*/
+        #e2ce92 -1px 0 0, #e2ce92 1px 0 0;/*上、下*/
+  }
+  .low-content .goodsBox .goodsBlock .info {
+    flex: 1;
+  }
+  .low-content .goodsBox .goodsBlock .info .spec {
+    color: #5e0000;
+    font-size: 10px;
+    line-height: 1.3;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  .low-content .goodsBox .goodsBlock .info img.shokai  {
+    width: 111px;
+    height: auto;
+  }
+  .low-content .goodsBox .goodsBlock img.eizou,
+  .low-content .goodsBox .goodsBlock img.audio {
+    width: 69px;
+    height: auto;
+  }
+  .low-content .goodsBox .goodsBlock .info .mintxt {
+    font-weight: bold;
+    font-size: 11px;
+  }
+  .low-content .goodsBox .goodsBlock .info .mintxt02 {
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+  }
+  .low-content .goodsBox .goodsBlock .info .mintxt span,
+  .low-content .goodsBox .goodsBlock .info .mintxt02 span {
+    padding-left: 15px;
+    font-size: 1rem;
+    display: block;
+  }
+  .low-content .goodsBox .goodsBlock .info .event {
+    border: 1px solid #000;
+    width: 285px;
+    padding: 3px 8px;
+    margin-bottom: 8px;
+  }
+    .low-content .goodsBox .goodsBlock .info .event h4 {
+      background: url(../../images/dot.png) left bottom no-repeat;
+      background-size: 264px 3px;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 1.7rem;
+      font-weight: bold;
+    }
+    .low-content .goodsBox .goodsBlock .info .event p {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-bottom: 0;
+    }
+    .low-content .goodsBox .goodsBlock .info .event .btn img {
+      width: 100%;
+      height: auto;
+      margin: 5px 0;
+    }
+  .low-content .goodsBox .goodsBlock .flbx {
+    display: flex;
+  }
+  .low-content .goodsBox .goodsBlock .priv {
+    display: flex;
+    margin-bottom: 2px;
+  }
+  .low-content .goodsBox .goodsBlock .priv dt {
+    margin-right: 5px;
+    height: 16px;
+  }
+  .low-content .goodsBox .goodsBlock .priv dd {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 1.3;
+  }
+  .low-content .goodsBox .goodsBlock .flbx .priv {
+    margin-right: 15px;
+  }
+  .low-content .goodsBox .goodsBlock .info .bddvd img {
+    width: 210px;
+    height: auto;
+  }
+  .low-content .goodsBox .goodsBlock .info .chuui {
+    list-style: none;
+    padding: 0 2px 0 0;
+    margin: 20px 0 0 0;
+    font-size: 1.1rem;
+  }
+  .low-content .goodsBox .goodsBlock .info .chuui li {
+    margin-left: 1em;
+    text-indent: -1em;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    text-shadow: 
+        #e2ce92 1px 1px 0, #e2ce92 -1px -1px 0,/*右下、左上*/
+        #e2ce92 -1px 1px 0, #e2ce92 1px -1px 0,/*右上、左下*/
+        #e2ce92 0px 1px 0, #e2ce92  0 -1px 0,/*右、左*/
+        #e2ce92 -1px 0 0, #e2ce92 1px 0 0;/*上、下*/
+  }
+  .low-content .goodsBox .goodsBlock .pic.bluray img {
+    width: 275px;
+    height: auto;
+  }
+  
+  .low-content .goodsBox .goodsBlock.block02 .pic img {
+    width: 175px;
+    height: auto;
+  }
+  .low-content .goodsBox .goodsBlock.block02 .pic .modal img {
+    border: 1px solid #000;
+  }
+
+.low-content .goodsBox h3.ttl {
+  background: url(../../images/goods/goods-ttlbar.png) 0 0 no-repeat;
+  width: 584px;
+  height: 42px;
+  line-height: 44px;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 60px;
+  position: relative;
+}
+  .low-content .goodsBox h3.ttl img {
+    width: 137px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 10px;
+  }
+  .low-content .goodsBox h3.ttl span {
+    font-size: 15px;
+  }
+  .low-content .goodsBox h3.ttl span.amazon {
+    font-size: 11px;
+    margin-left: 5px;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  }
+
+.low-content.goods h3 {
+  margin-bottom: 2px;
+}
+.low-content.goods h3 img {
+  height: auto;
+  width: auto;
+}
+.low-content .goodsBox .shoplist {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+  .low-content .goodsBox .shoplist li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+  .low-content .goodsBox .shoplist li .descr {
+    width: 400px;
+  }
+  .low-content .goodsBox .shoplist li.full .descr {
+    width: 100%;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic {
+    display: flex;
+    padding-left: 45px;
+    padding-top: 10px;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic.middle {
+    align-items: center;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic > img {
+    margin-right: 10px;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic > img.print {
+    margin-right: 0;
+    margin-left: auto;
+    width: 142px;
+    height: 142px;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic p,
+  .low-content .goodsBox .shoplist li.full .descr .goodspic dl {
+    padding-left: 0;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic p.center {
+    text-align: center;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic.amazon div {
+     width: 33.3333%;
+  }
+    .low-content .goodsBox .shoplist li.full .descr .goodspic.amazon div img {
+      width: 100%;
+      height: auto;
+    }
+    .low-content .goodsBox .shoplist li.full .descr .goodspic.amazon div p {
+      font-size: 15px;
+      text-align: center;
+    }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic.tag {
+    padding-top: 20px;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic.tag div:first-child p {
+    text-align: center;
+  }
+  .low-content .goodsBox .shoplist li.full .descr .goodspic.tag div:last-child {
+    position: relative;
+    padding-top: 118px;
+    margin-left: 30px;
+  }
+    .low-content .goodsBox .shoplist li.full .descr .goodspic.tag div:last-child p:first-child {
+      position: absolute;
+      top: 0;
+      left: 0;
+      top: -65px;
+      left: 25px;
+    }
+   .low-content .goodsBox .shoplist li.full .descr .toralim {
+     display: flex;
+     padding-top: 15px;
+   }
+   .low-content .goodsBox .shoplist li.full .descr .toralim .block01 img {
+     width: 310px;
+     height: auto;
+   }
+   .low-content .goodsBox .shoplist li.full .descr .toralim .block02 p {
+     padding-left: 10px;
+   }
+   .low-content .goodsBox .shoplist li.full .descr .toralim .block02 img {
+     width: 210px;
+     height: auto;
+   }
+   .low-content .goodsBox .shoplist li.full .descr .toralim p {
+     font-weight: bold;
+     font-size: 12px;
+     text-align: center;
+   }
+   .low-content .goodsBox .shoplist li.full .descr .tora04 p {
+     font-weight: bold;
+     font-size: 12px;
+     text-align: center;
+   }
+   .low-content .goodsBox .shoplist li.full .descr .tora04 img {
+     width: 400px;
+     height: auto;
+   }
+  .low-content .goodsBox .shoplist li .descr dl {
+    display: flex;
+    padding-left: 50px;
+    font-size: 12px;
+    margin-bottom: 0;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  }
+  .low-content .goodsBox .shoplist li .descr dl.tora {
+    font-size: 12px;
+    letter-spacing: -1px;
+  }
+  .low-content .goodsBox .shoplist li .descr dl dd {
+    margin: 0;
+    flex: 1;
+  }
+  .low-content .goodsBox .shoplist li .descr dl.tora dd {
+    font-weight: bold;
+  }
+  .low-content .goodsBox .shoplist li .descr h4 {
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    padding-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .low-content .goodsBox .shoplist li.full .descr h4 {
+    padding-left: 0;
+  }
+  .low-content .goodsBox .shoplist li .descr p {
+    font-size: 12px;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    padding-left: 50px;
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+  .low-content .goodsBox .shoplist li .descr p span {
+    font-size: 11px;
+  }
+  .low-content .goodsBox .shoplist li .descr p.buy {
+    text-align: right;
+    padding: 0;
+    margin-top: 10px;
+  }
+  .low-content .goodsBox .shoplist li .descr p.buy img {
+    width: 137px;
+    height: auto;
+  }
+
+/*BOOK*/
+.low-content .bookBox {
+  width: 600px;
+  height: 820px;
+  padding-right: 20px;
+  overflow-y: auto;
+}
+  .low-content .bookBox h3 {
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+  }
+  .low-content .bookBox h3.original {
+    background: url(../../images/book-subttl01.png) center top no-repeat;
+    background-size: 580px 20px;
+  }
+  .low-content .bookBox h3.comic {
+    background: url(../../images/book-subttl02.png) center top no-repeat;
+    background-size: 580px 18px;
+  }
+  .low-content .bookBox ul {
+    list-style: none;
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+  .low-content .bookBox ul li {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .low-content .bookBox ul li .pic {
+    box-shadow: 1px 2px 9px rgba(60, 45, 6, 0.5);
+    margin-right: 20px;
+  }
+  .low-content .bookBox ul li .txt {
+    flex: 1;
+  }
+  .low-content .bookBox ul li .txt .ttl {
+    margin-bottom: 20px;
+  }
+    .low-content .bookBox ul li .txt .ttl img {
+      max-width: 100%;
+      height: auto;
+    }
+  .low-content .bookBox ul li .txt .info {
+    font-size: 1.4rem;
+    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    margin-bottom: 10px;
+  }
+  .low-content .bookBox ul li .txt .date {
+    font-weight: bold;
+    font-size: 2.2rem;
+  }
+  .low-content .bookBox ul li .txt .btn {
+    margin-top: 40px;
+  }
+  .low-content .bookBox ul li .txt .btn img {
+    width: 240px;
+    height: 30px;
+  }
+/*MUSIC*/
+.low-content .musicBox {
+  width: 600px;
+  height: 820px;
+  padding-right: 20px;
+  overflow: hidden;
+}
+  .low-content .musicBox h3 {
+    text-indent:100%;
+    white-space:nowrap;
+    overflow:hidden;
+  }
+  .low-content .musicBox h3.opening {
+    background: url(../../images/music-subttl01.png) center top no-repeat;
+    background-size: 580px 15px;
+  }
+  .low-content .musicBox h3.ending {
+    background: url(../../images/music-subttl02.png) center top no-repeat;
+    background-size: 580px 15px;
+    margin-top: 20px;
+  }
+  .low-content .musicBox .jacket {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+    .low-content .musicBox .jacket .block {
+      margin: 0 10px;
+    }
+  .low-content .musicBox .jacket img {
+    width: 165px;
+    height: 165px;
+  }
+  .low-content .musicBox .info {
+    margin-bottom: 25px;
+    font-size: 1.2rem;
+  }
+  .low-content .musicBox .info h4 {
+    font-size: 1.9rem;
+    font-weight: bold;
+  }
+  .low-content .musicBox .info dl {
+    display: flex;
+    margin-bottom: 0px;
+  }
+  .low-content .musicBox .info dl dt {
+    width: 100px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .low-content .musicBox .info dl dd p {
+    margin-bottom: 5px;
+    text-align: left;
+  }
+  .low-content .musicBox .dtl {
+    text-align: right;
+  }
+  .low-content .musicBox .dtl img {
+    width: 147px;
+    height: 21px;
+  }
+
+
+.mb10 {margin-bottom: 10px !important;}
+.mb15 {margin-bottom: 15px !important;}
+.mb20 {margin-bottom: 20px !important;}
