@@ -6,7 +6,6 @@ html {
 }
 body {
 	font-size: 1.0rem;
-	font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	height: auto;
 	background: url(../../images/bg.jpg) center top no-repeat #000;
 	min-width: 100%;
@@ -451,7 +450,6 @@ background-position-y: 20%;
     .low-content.story .storyBox .title-summary .txt {
       width: 48%;
       font-size: 1.3rem;
-      font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
       text-shadow: 0px 0px 5px #daac33;
     }
   .low-content.story .back {
@@ -583,7 +581,6 @@ background-position-y: 20%;
     }
     .low-content.special .specialBox p.lead {
       font-size: 1.6rem;
-      font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
       font-weight: bold;
       text-shadow: 1px 1px 0 #e2ce92,
              -1px 1px 0 #e2ce92,
@@ -629,7 +626,6 @@ background-position-y: 20%;
     }
     .low-content.special .specialBox p.etc {
       font-size: 1.2rem;
-      font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
       font-weight: bold;
       text-shadow: 1px 1px 0 #e2ce92,
              -1px 1px 0 #e2ce92,
@@ -735,12 +731,11 @@ footer {
     font-size: 12px;
     margin-top: 20px;
     font-weight: bold;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     text-shadow: 
-        #e2ce92 1px 1px 0, #e2ce92 -1px -1px 0,/*右下、左上*/
-        #e2ce92 -1px 1px 0, #e2ce92 1px -1px 0,/*右上、左下*/
-        #e2ce92 0px 1px 0, #e2ce92  0 -1px 0,/*右、左*/
-        #e2ce92 -1px 0 0, #e2ce92 1px 0 0;/*上、下*/
+        #e2ce92 1px 1px 0, #e2ce92 -1px -1px 0,
+        #e2ce92 -1px 1px 0, #e2ce92 1px -1px 0,
+        #e2ce92 0px 1px 0, #e2ce92  0 -1px 0,
+        #e2ce92 -1px 0 0, #e2ce92 1px 0 0;
   }
   .low-content .goodsBox .goodsBlock .info {
     flex: 1;
@@ -834,12 +829,11 @@ footer {
   .low-content .goodsBox .goodsBlock .info .chuui li {
     margin-left: 1em;
     text-indent: -1em;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     text-shadow: 
-        #e2ce92 1px 1px 0, #e2ce92 -1px -1px 0,/*右下、左上*/
-        #e2ce92 -1px 1px 0, #e2ce92 1px -1px 0,/*右上、左下*/
-        #e2ce92 0px 1px 0, #e2ce92  0 -1px 0,/*右、左*/
-        #e2ce92 -1px 0 0, #e2ce92 1px 0 0;/*上、下*/
+        #e2ce92 1px 1px 0, #e2ce92 -1px -1px 0,
+        #e2ce92 -1px 1px 0, #e2ce92 1px -1px 0,
+        #e2ce92 0px 1px 0, #e2ce92  0 -1px 0,
+        #e2ce92 -1px 0 0, #e2ce92 1px 0 0;
   }
   .low-content .goodsBox .goodsBlock .pic.bluray img {
     width: 275px;
@@ -877,7 +871,6 @@ footer {
   .low-content .goodsBox h3.ttl span.amazon {
     font-size: 11px;
     margin-left: 5px;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   }
 
 .low-content.goods h3 {
@@ -990,7 +983,6 @@ footer {
     padding-left: 50px;
     font-size: 12px;
     margin-bottom: 0;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   }
   .low-content .goodsBox .shoplist li .descr dl.tora {
     font-size: 12px;
@@ -1006,7 +998,6 @@ footer {
   .low-content .goodsBox .shoplist li .descr h4 {
     font-weight: bold;
     font-size: 16px;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     padding-left: 50px;
     margin-top: 10px;
     margin-bottom: 0;
@@ -1016,7 +1007,6 @@ footer {
   }
   .low-content .goodsBox .shoplist li .descr p {
     font-size: 12px;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     padding-left: 50px;
     margin-bottom: 0;
     font-weight: bold;
@@ -1079,7 +1069,6 @@ footer {
     }
   .low-content .bookBox ul li .txt .info {
     font-size: 1.4rem;
-    font-family: "游ゴシック", "Yu Gothic", YuGothic, "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, "ＭＳ ゴシック",  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     margin-bottom: 10px;
   }
   .low-content .bookBox ul li .txt .date {
